@@ -1,3 +1,5 @@
-h1 {
-  color: #000000;
-}
+@import "./global/fonts.scss";
+@import "./global/variables.scss";
+@import "./blocks/page.scss";
+@import "./blocks/header.scss";
+@import "./blocks/button.scss";
