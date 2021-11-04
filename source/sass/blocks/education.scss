@@ -1,0 +1,63 @@
+.education {
+  padding-bottom: 330px;
+}
+
+.education h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 150px;
+
+  @media (max-width: $viewport--xl) {
+    font-size: 44px;
+    line-height: 46px;
+  }
+
+  @media (max-width: $viewport--lg) {
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: $viewport--md) {
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  @media (max-width: $viewport--sx) {
+    font-size: 26px;
+    line-height: 28px;
+  }
+}
+
+.education__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  gap: 30px;
+
+  @media (max-width: $viewport--lg) {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  @media (max-width: $viewport--sx) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.education__wrapper img {
+  @media (max-width: $viewport--sx) {
+    object-fit: cover;
+    width: 220px;
+    height: 323px;
+  }
+}
