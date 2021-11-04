@@ -1,8 +1,12 @@
 .reason {
   padding-bottom: 150px;
+
+  @media (max-width: $viewport--md) {
+    padding-bottom: 70px;
+  }
 }
 
-.reason h1 {
+.reason h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 50px;

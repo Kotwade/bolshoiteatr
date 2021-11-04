@@ -1,8 +1,12 @@
 .education {
   padding-bottom: 330px;
+
+  @media (max-width: $viewport--md) {
+    padding-bottom: 70px;
+  }
 }
 
-.education h1 {
+.education h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 50px;
