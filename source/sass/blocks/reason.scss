@@ -43,7 +43,7 @@
   max-width: 990px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 
   @media (max-width: $viewport--lg) {
     flex-direction: column;
@@ -97,8 +97,4 @@
     font-size: 16px;
     line-height: 18px;
   }
-}
-
-.reason__item-header--second {
-  margin-top: 80px;
 }
