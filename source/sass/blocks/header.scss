@@ -14,26 +14,30 @@
   @media (max-width: $viewport--md) {
     padding-bottom: 70px;
   }
+
+  @media (max-width: 360px) {
+    padding-bottom: 120px;
+  }
 }
 
 .header__wrapper h1 {
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 62px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 66px;
   color: #feed93;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
   @media (max-width: $viewport--xl) {
-    font-size: 54px;
-    line-height: 56px;
+    font-size: 58px;
+    line-height: 60px;
   }
 
   @media (max-width: $viewport--lg) {
-    font-size: 48px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 52px;
   }
 
   @media (max-width: $viewport--md) {
@@ -41,10 +45,18 @@
     line-height: 50px;
   }
 
+
   @media (max-width: $viewport--sx) {
-    font-size: 24px;
-    line-height: 26px;
-    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+.header__br {
+  display: none;
+
+  @media (max-width: 545px) {
+    display: block;
   }
 }
 
@@ -116,6 +128,10 @@
   @media (max-width: $viewport--md) {
     width: 355px;
     height: 365px;
+  }
+
+  @media (max-width: 360px) {
+    display: none;
   }
 
   @media (max-width: $viewport--sx) {
@@ -210,4 +226,8 @@
 
 .header__button {
   display: block;
+
+  @media (max-width: 990px) {
+    margin: 0 auto;
+  }
 }
