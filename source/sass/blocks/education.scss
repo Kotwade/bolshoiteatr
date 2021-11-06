@@ -8,31 +8,30 @@
 
 .education h2 {
   font-weight: 400;
-  font-size: 48px;
-  line-height: 50px;
-  text-transform: uppercase;
+  font-size: 54px;
+  line-height: 56px;
   text-align: center;
   margin-bottom: 150px;
 
   @media (max-width: $viewport--xl) {
-    font-size: 44px;
-    line-height: 46px;
+    font-size: 48px;
+    line-height: 50px;
   }
 
   @media (max-width: $viewport--lg) {
-    font-size: 40px;
-    line-height: 42px;
+    font-size: 42px;
+    line-height: 44px;
     margin-bottom: 50px;
   }
 
   @media (max-width: $viewport--md) {
-    font-size: 36px;
-    line-height: 38px;
+    font-size: 38px;
+    line-height: 40px;
   }
 
   @media (max-width: $viewport--sx) {
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 34px;
   }
 }
 

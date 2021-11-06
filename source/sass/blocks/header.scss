@@ -3,6 +3,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #01354d;
 }
 
 .header__wrapper {
@@ -12,20 +13,15 @@
   padding-right: 20px;
 
   @media (max-width: $viewport--md) {
-    padding-bottom: 70px;
-  }
-
-  @media (max-width: 360px) {
     padding-bottom: 120px;
   }
 }
 
 .header__wrapper h1 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 64px;
   line-height: 66px;
   color: #feed93;
-  text-transform: uppercase;
   text-align: center;
   margin: 0;
   margin-bottom: 20px;
@@ -126,17 +122,7 @@
   }
 
   @media (max-width: $viewport--md) {
-    width: 355px;
-    height: 365px;
-  }
-
-  @media (max-width: 360px) {
     display: none;
-  }
-
-  @media (max-width: $viewport--sx) {
-    width: 260px;
-    height: 270px;
   }
 }
 
