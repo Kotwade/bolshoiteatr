@@ -14,7 +14,7 @@
 }
 
 .job__container h2 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 54px;
   line-height: 56px;
   text-align: center;
@@ -30,11 +30,13 @@
   @media (max-width: $viewport--lg) {
     font-size: 42px;
     line-height: 44px;
+    margin-bottom: 100px;
   }
 
   @media (max-width: $viewport--md) {
     font-size: 38px;
     line-height: 40px;
+    margin-bottom: 50px;
   }
 
   @media (max-width: $viewport--sx) {

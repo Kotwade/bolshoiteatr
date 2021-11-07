@@ -7,7 +7,7 @@
 }
 
 .reason h2 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 54px;
   line-height: 56px;
   text-align: center;
@@ -69,14 +69,17 @@
 }
 
 .reason__item-header {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 21px;
   line-height: 23px;
-  text-transform: uppercase;
   text-align: center;
   padding: 0;
   margin-bottom: 50px;
   margin-top: 50px;
+
+  @media (max-width: $viewport--md) {
+    margin-bottom: 30px;
+  }
 
   @media (max-width: $viewport--sx) {
     font-size: 19px;
@@ -87,7 +90,7 @@
 .reason__item p {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 24px;
   text-align: center;
   margin: 0;
   padding: 0;
