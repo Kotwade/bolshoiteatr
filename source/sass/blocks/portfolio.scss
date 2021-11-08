@@ -1,5 +1,9 @@
 .portfolio {
   padding-bottom: 140px;
+
+  @media (max-width: $viewport--sx) {
+    padding-bottom: 70px;
+  }
 }
 
 .portfolio h2 {
@@ -54,6 +58,12 @@
   }
 }
 
+.portfolio__item:last-child {
+  @media (max-width: $viewport--sx) {
+    margin-bottom: 0;
+  }
+}
+
 .portfolio__text {
   width: 500px;
 
@@ -63,7 +73,7 @@
 }
 
 .portfolio__text h3 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 22px;
   line-height: 24px;
   margin-top: 120px;
@@ -81,6 +91,7 @@
   @media (max-width: $viewport--sx) {
     font-size: 16px;
     line-height: 18px;
+    margin-bottom: 20px;
   }
 }
 
@@ -92,8 +103,8 @@
   padding: 0;
 
   @media (max-width: $viewport--sx) {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 15px;
+    line-height: 17px;
   }
 }
 
