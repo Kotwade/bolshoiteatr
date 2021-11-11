@@ -1,5 +1,9 @@
 .advantages {
   padding-bottom: 100px;
+
+  @media (max-width: $viewport--md) {
+    padding-bottom: 70px;
+  }
   }
 
 .advantages h2 {
