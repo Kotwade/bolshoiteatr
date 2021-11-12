@@ -26,6 +26,11 @@
   color: $white;
   margin: 0;
   padding: 0;
+
+  @media (max-width: 840px) {
+    font-size: 15px;
+    line-height: 17px;
+  }
 }
 
 .page-footer__link {
@@ -42,9 +47,11 @@
   }
 
   @media (max-width: 840px) {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     margin-left: 0;
     margin-right: 0;
+    font-size: 15px;
+    line-height: 17px;
   }
 }
