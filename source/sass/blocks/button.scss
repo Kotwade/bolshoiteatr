@@ -1,8 +1,8 @@
 .button {
   background-color: #efde00;
   color: $black;
-  font-size: 21px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 18px;
   font-weight: 700;
   width: 295px;
   padding: 20px 20px;
@@ -14,6 +14,6 @@
   }
 
   @media (max-width: 390px) {
-    width: 255px;
+    width: 225px;
   }
 }
