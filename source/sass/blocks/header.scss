@@ -134,20 +134,8 @@
   margin-bottom: 75px;
   margin-top: 60px;
 
-  @media (max-width: $viewport--lg) {
-    font-size: 19px;
-    line-height: 21px;
-  }
-
-  @media (max-width: $viewport--md) {
-    font-size: 17px;
-    line-height: 19px;
-  }
-
   @media (max-width: 390px) {
-    font-size: 15px;
-    line-height: 17px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 37px;
   }
 }
@@ -174,10 +162,10 @@
     width: 100%;
   }
 
-  @media (max-width: $viewport--sx) {
-    font-size: 15px;
-    line-height: 17px;
-    margin-bottom: 20px;
+  @media (max-width: 390px) {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
   }
 }
 
@@ -192,19 +180,10 @@
   margin-bottom: 80px;
 
   @media (max-width: $viewport--lg) {
-    font-size: 19px;
-    line-height: 21px;
     width: 100%;
   }
 
-  @media (max-width: $viewport--md) {
-    font-size: 17px;
-    line-height: 19px;
-  }
-
   @media (max-width: 390px) {
-    font-size: 15px;
-    line-height: 17px;
     margin-top: 35px;
     margin-bottom: 40px;
   }

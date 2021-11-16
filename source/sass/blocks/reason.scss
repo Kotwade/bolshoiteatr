@@ -99,8 +99,8 @@
   margin: 0;
   padding: 0;
 
-  @media (max-width: $viewport--sx) {
-    font-size: 16px;
-    line-height: 18px;
+  @media (max-width: 390px) {
+    font-size: 14px;
+    line-height: 16px;
   }
 }

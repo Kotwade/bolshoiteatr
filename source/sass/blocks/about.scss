@@ -80,8 +80,8 @@
     width: 100%;
   }
 
-  @media (max-width: $viewport--sx) {
-    font-size: 15px;
-    line-height: 17px;
+  @media (max-width: 390px) {
+    font-size: 14px;
+    line-height: 16px;
   }
 }

@@ -100,13 +100,18 @@
   margin-top: 45px;
   color: $white;
 
-  @media (max-width: $viewport--sx) {
-    font-size: 16px;
-    line-height: 18px;
+  @media (max-width: 390px) {
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
 .job__button {
   margin: 0 auto;
   display: block;
+  margin-top: 60px;
+
+  @media (max-width: $viewport--md) {
+    margin-top: 0;
+  }
 }
