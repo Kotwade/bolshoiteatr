@@ -1,5 +1,6 @@
 .portfolio {
   padding-bottom: 10px;
+  position: relative;
 
   @media (max-width: 390px) {
     padding-bottom: 70px;
@@ -118,4 +119,17 @@
   @media (max-width: 1250px) {
     order: -1;
   }
+}
+
+.portfolio__image {
+  position: relative;
+}
+
+.portfolio__loup {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
