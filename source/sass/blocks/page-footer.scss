@@ -19,13 +19,32 @@
   }
 }
 
-.page-footer__wrapper p {
+.page-footer p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: $white;
   margin: 0;
   padding: 0;
+
+  @media (max-width: 700px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.page-footer__privacy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 
   @media (max-width: 700px) {
     font-size: 12px;
