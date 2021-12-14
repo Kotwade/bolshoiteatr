@@ -30,25 +30,7 @@
   @media (max-width: 700px) {
     font-size: 12px;
     line-height: 14px;
-  }
-}
-
-.page-footer__privacy {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: $white;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-
-  @media (max-width: 700px) {
-    font-size: 12px;
-    line-height: 14px;
+    margin-bottom: 6px;
   }
 }
 
@@ -57,7 +39,7 @@
   font-size: 14px;
   line-height: 16px;
   color: $white;
-  margin-left: 35px;
+  margin-left: auto;
   margin-right: auto;
   text-decoration: none;
 
@@ -66,7 +48,6 @@
   }
 
   @media (max-width: 700px) {
-    margin-top: 6px;
     margin-bottom: 6px;
     margin-left: 0;
     margin-right: 0;
