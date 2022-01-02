@@ -19,6 +19,15 @@
   }
 }
 
+.page-footer img {
+  margin-right: 30px;
+
+  @media (max-width: 870px) {
+    margin-right: 0;
+    margin-bottom: 6px;
+  }
+}
+
 .page-footer p {
   font-weight: 400;
   font-size: 14px;
